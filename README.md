@@ -1,4 +1,5 @@
 # Time-series predictability of stock returns 
+A Python replication of Cochrane’s return predictability analysis, applied to modern data (1965–2023)
 
 ## Replication of Cochrane (2007, 2011)
 
@@ -40,6 +41,22 @@ The project was completed as part of Advanced Investments at the University of A
 4. Figure 1 replication
 - Plot 4× dividend yield
 - Plot the subsequent 7-year annualized total return
+
+---
+
+## Repository Structure
+├── cochrane_replication.ipynb        # Main notebook: analysis, regressions, figures
+
+├── cochrane_replication.py           # Clean modular Python implementation
+
+├── shiller_data.xls                  # Shiller S&P 500 dataset (real prices & dividends)
+
+├── F-F_Research_Data_Factors.csv     # Fama–French market excess returns
+
+├── README.md                         # Documentation and project summary
+
+└── .DS_Store                         # (macOS system file – safe to delete, optional)
+
 
 ---
 
