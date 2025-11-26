@@ -51,7 +51,7 @@ The project was completed as part of Advanced Investments at the University of A
 ├── shiller_data.xls                  # Shiller S&P 500 dataset (real prices & dividends)
 ├── F-F_Research_Data_Factors.csv     # Fama–French market excess returns
 ├── README.md                         
-└── .DS_Store                         # (macOS system file – safe to delete, optional)
+└── .DS_Store                         
 ```
 
 
