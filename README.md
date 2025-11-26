@@ -20,7 +20,7 @@ Data used:
 The analysis examines whether the dividend-price ratio (D/P) predicts future stock returns and dividend growth, using **S&P 500 data (1965–2023)**. 
 The project was completed as part of Advanced Investments at the University of Amsterdam, and was implemented in Python within a reproducible Jupyter Notebook.
 
----
+
 
 ## Key Findings
 
@@ -30,7 +30,7 @@ The project was completed as part of Advanced Investments at the University of A
 - The long-horizon co-movement between 4×D/P and future 7-year returns is **visible** before mid-1990s, although weaker than Cochrane's findings. This pattern cannot be observed after 2000. 
 - The weakening of D/P predictability is partly due to the rise of **share buybacks**, which increasingly replace dividend payouts. As a result, dividend yield no longer captures a firm's total payout policy, reducing its relevance as a valuation ratio. 
 
----
+
 
 ## Methods Summary
 1. Construct annual dividend-price ratio using real dividends and real prices (December observations).
@@ -42,7 +42,7 @@ The project was completed as part of Advanced Investments at the University of A
 - Plot 4× dividend yield
 - Plot the subsequent 7-year annualized total return
 
----
+
 
 ## Repository Structure
 ├── cochrane_replication.ipynb        # Main notebook: analysis, regressions, figures
@@ -58,7 +58,7 @@ The project was completed as part of Advanced Investments at the University of A
 └── .DS_Store                         # (macOS system file – safe to delete, optional)
 
 
----
+
 
 ## How to Run
 1. Install requirements:
@@ -66,7 +66,7 @@ The project was completed as part of Advanced Investments at the University of A
 2. Run the script
    python cochrane_replication.py
 
----
+
 
 ## Skills Demonstrated
 - Financial econometrics
