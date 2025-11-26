@@ -45,18 +45,14 @@ The project was completed as part of Advanced Investments at the University of A
 
 
 ## Repository Structure
+```
 ├── cochrane_replication.ipynb        # Main notebook: analysis, regressions, figures
-
 ├── cochrane_replication.py           # Clean modular Python implementation
-
 ├── shiller_data.xls                  # Shiller S&P 500 dataset (real prices & dividends)
-
 ├── F-F_Research_Data_Factors.csv     # Fama–French market excess returns
-
-├── README.md                         # Documentation and project summary
-
+├── README.md                         
 └── .DS_Store                         # (macOS system file – safe to delete, optional)
-
+```
 
 
 
